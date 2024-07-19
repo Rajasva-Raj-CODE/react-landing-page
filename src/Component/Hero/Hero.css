@@ -1,0 +1,56 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    background-color:rgb(38, 49, 56) ;
+    color: white;
+}
+
+.paraChild{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+
+h4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.arts{
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width:780px) {
+    .parent{display: flex;
+    flex-direction: column;
+gap: 50px;}
+
+    p{
+        font-size: 24px;
+    }
+
+    .imagechild>img{
+        width: 250px;
+    }
+
+    .paraChild{
+        gap: 50px;
+    }
+}
